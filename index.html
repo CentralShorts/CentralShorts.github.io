@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <script defer src="assets/js/ScrollAnimation.js"></script>
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
@@ -50,7 +51,14 @@
     <header class="d-xl-flex flex-column justify-content-xl-center align-items-xl-center" style="height: 418px;text-align: center;margin: 55px;"><img class="rounded" src="https://cdn.glitch.global/f096a85e-ceef-48a7-94a5-51b58585324e/MiscProfilePictureCircle.png?v=1678684356941" width="150" height="150" style="margin-top: 100px;">
         <h1 class="bot-title d-xl-flex justify-content-xl-start" style="color: var(--text-color);">Misc</h1>
         
-        <div class="desc-box"><p class="desc-text whitespace-pre-line">Misc is a Multi-Purpose Discord bot. It can do anything you want, such as auto-moderation, welcome messages, leave messages, wordle and more!</p></div>
+        <div class="desc-box"><p class="desc-text whitespace-pre-line">Misc is a versatile Discord bot that offers automated moderation, welcome/leave messages, and the popular Wordle game, among other customizable functions.</p></div>
+
+        <div class="desc-box"><p class="scroll-hidden read-more-text desc-text whitespace-pre-line more">Misc is a multipurpose moderation Discord Bot. He makes managing your server and it's members easier by it's advanced commands. Not only can Misc keep your server in order, it also entertains you and your server members. The best part about all of this is, that the bot offers 100% of it's functionality for free! Misc's goal is to take all of the best, most practical, and useful commands and combines them into a simple, free, and advanced Discord Bot.</p></div>
+
+        <a><button class="read-more-btn cursor-expandable"><span class="text read-more-span">Read More</span><span class="icon"><i class="fa-solid fa-book-open white-icon"></i></span></button></a>
+
+        <br>
+        <br>
         
         <!-- <div class="text-typing-wrapper">
             <span class="typing-text-span">Make Your <br> Expirience Better <br> With Misc's <span class="text-typing-multiText">Auto Moderation</span></span>
@@ -84,21 +92,33 @@
             </div>
             <div class="row justify-content-center features">
                 <div class="col-sm-6 col-md-5 col-lg-4 item" data-tilt data-tilt-max="7" data-tilt-speed="300" data-tilt-perspective="500" data-tilt-scale="1.07">
-                    <div id="features" class="box"><i class="fa fa-bolt icon" style = "color: var(--main-color);"></i>
-                        <h3 class="name">Fast</h3>
-                        <p class="description" style="color: var(--secondary-text-color);">Explain how fast your bot is here! Lightning fast!<br></p>
+                    <div id="features" class="scroll-hidden box" style="--order: 1; transition-delay: calc(100ms * var(--order));"><i class="fa-solid fa-dollar-sign icon" style = "color: var(--main-color);"></i>
+                        <h4 class="name">Free</h4>
+                        <p class="description" style="color: var(--secondary-text-color);">All of Misc's features and commands are available to use completely free of charge!<br></p>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-5 col-lg-4 item" data-tilt data-tilt-max="7" data-tilt-speed="300" data-tilt-perspective="500" data-tilt-scale="1.07">
-                    <div id="features" class="box"><i class="fa fa-lock icon" style="color: var(--main-color);"></i>
-                        <h3 class="name">Secure</h3>
-                        <p class="description" style="color: var(--secondary-text-color);">Explain how secure your bot is and why people should use it.<br></p>
+                    <div id="features" class="scroll-hidden box" style="--order: 2; transition-delay: calc(100ms * var(--order));"><i class="fa-solid fa-gear icon" style="color: var(--main-color);"></i>
+                        <h3 class="name">Advanced Commands</h3>
+                        <p class="description" style="color: var(--secondary-text-color);">The commands that the bot offers, are made advanced, but at the same time, easy to use.<br></p>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-5 col-lg-4 item" data-tilt data-tilt-max="7" data-tilt-speed="300" data-tilt-perspective="500" data-tilt-scale="1.07">
-                    <div id="features" class="box"><i class="fa-solid fa-people-group icon" style="color: var(--main-color);"></i>
-                        <h3 class="name">Happy Users</h3>
-                        <p class="description" style="color: var(--secondary-text-color);">Explain how happy everyone who uses your bot is!<br></p>
+                    <div id="features" class="scroll-hidden box" style="--order: 3; transition-delay: calc(100ms * var(--order));"><i class="fa-solid fa-mountain icon" style="color: var(--main-color);"></i>
+                        <h3 class="name">Diverse Commands</h3>
+                        <p class="description" style="color: var(--secondary-text-color);">Misc's commands are also very diverse. This bot is perfect for any server, offering all kinds of commands.<br></p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-5 col-lg-4 item" data-tilt data-tilt-max="7" data-tilt-speed="300" data-tilt-perspective="500" data-tilt-scale="1.07">
+                    <div id="features" class="scroll-hidden box" style="--order: 4; transition-delay: calc(100ms * var(--order));"><i class="fa-solid fa-clock icon" style="color: var(--main-color);"></i>
+                        <h3 class="name">99% Uptime</h3>
+                        <p class="description" style="color: var(--secondary-text-color);">The bot is also online 99% of time, making it available for use almost whenever you want.<br></p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-5 col-lg-4 item" data-tilt data-tilt-max="7" data-tilt-speed="300" data-tilt-perspective="500" data-tilt-scale="1.07">
+                    <div id="features" class="scroll-hidden box" style="--order: 5; transition-delay: calc(100ms * var(--order));"><i class="fa-brands fa-discord icon" style="color: var(--main-color);"></i>
+                        <h3 class="name">For Any Server</h3>
+                        <p class="description" style="color: var(--secondary-text-color);">With it's features and commands, Misc is suitable for any server, no matter the size.<br></p>
                     </div>
                 </div>
             </div>
@@ -106,7 +126,7 @@
             <div class="support-server-div">
                 <h2 class="d-xl-flex justify-content-xl-center" style="color: var(--text-color);">Misc's Support Discord Server</h2>
 
-            <div class="desc-box"><p class="support-server-text desc-text whitespace-pre-line">Join the Misc's Support Server, to give suggestions about the bot, report bugs, or just chat with people. We would love to see you join!</p></div>
+            <div class="desc-box"><p class="support-server-text desc-text whitespace-pre-line">Join the Misc's Support Server, to give suggestions about the bot, report bugs, or just chat with people. We would love to see you join! <span class="wave-emoji">👋</span></p></div>
 
             <a href="https://discord.com/invite/"><button class="join-server-btn cursor-expandable"><span class="text join-server-text">Join Server</span><span class="icon"><i class="join-icon fa-solid fa-right-to-bracket white-icon fa-lg"></i></span></button></a>
             </div>
@@ -119,7 +139,7 @@
                 <div class="container2">
                     <div class="row justify-content-center features">
                         <div class="col-sm-6 col-md-5 col-lg-4 item" data-tilt data-tilt-max="4" data-tilt-speed="200" data-tilt-perspective="300" data-tilt-scale="1.07">
-                            <div id="features" class="box"><img class="developer-image" src="assets/images/lxstCircle.png">
+                            <div id="features" class="scroll-hidden box"><img class="developer-image" src="assets/images/lxstCircle.png">
                                 <h3 class="name" style="color: var(--main-color);">lxst</h3>
                                 <p class="description" style="color: var(--secondary-text-color);">Hi! I'm the developer of <strong>Misc</strong>. I've enjoyed programming since a young age. I made this bot to expand my programming knowledge to other programming languages.<br></p>
                             </div>
@@ -152,8 +172,8 @@
          
     <! --- If you want more just copy the following code from here -- >
         <div class="accordion-item cursor-expandable">
-      <button id="accordion-button-1" aria-expanded="false"><span class="accordion-title">Standard Commands</span><span class="icon" aria-hidden="true"></span></button>
-      <div class="accordion-content">
+        <button id="accordion-button-1" aria-expanded="false"><span class="accordion-title">Standard Commands</span><span class="icon" aria-hidden="true"></span></button>
+        <div class="accordion-content">
         <p>!help - see all bot comands <br> !support - see how to donate to our patreon <br> !help - see all bot comands <br> !support - see how to donate to our patreon <br> !help - see all bot comands <br> !support - see how to donate to our patreon <br> !help - see all bot comands <br>!help - see all bot comands <br> !support - see how to donate to our patreon <br> !help - see all bot comands<br> !help - see all bot comands <br> !support - see how to donate to our patreon <br> !help - see all bot comands <br>!help - see all bot comands <br> !support - see how to donate to our patreon <br> !help - see all bot comands<br> !help - see all bot comands <br> !support - see how to donate to our patreon <br> !help - see all bot comands <br>!help - see all bot comands <br> !support - see how to donate to our patreon <br> !help - see all bot comands <br> fuck <br> hi <br> lol</p>
       </div>
     </div>
@@ -339,6 +359,7 @@
     <script src="assets/js/Loader.js"></script>
     <script src="assets/js/Popup.js"></script>
     <script src="assets/js/Cursor.js"></script>
+    <script src="assets/js/ReadMore.js"></script>
 </body>
 
 </html>

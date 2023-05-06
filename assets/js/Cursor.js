@@ -23,14 +23,14 @@ window.addEventListener("mousemove", function(e) {
 expandables.forEach(element => {
     element.addEventListener("mouseover", function() {
         cursorDot.animate({
-            width: "11px",
-            height: "11px"
+            width: "10px",
+            height: "10px"
         }, { duration: 200, fill: "forwards" });
     });
 });
 
 expandables.forEach(element => {
-    element.addEventListener("mouseleave", function() {;
+    element.addEventListener("mouseleave", function() {
         cursorDot.animate({
             width: "5px",
             height: "5px"
