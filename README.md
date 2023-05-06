@@ -1,5 +1,5 @@
 # An Official Website for Misc.
 
-## Base theme by ItsHoozi
+### Base theme by ItsHoozi
 
-## Theme edited by Lxst
+### Theme edited by Lxst
